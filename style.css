@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Poor+Story&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  "Poor Story", system-ui;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #171717;
+}
+/* 
+container
+.container{
+    position: relative;
+    width: 1260px;
+    height: 580px;
+
+}
+
+ .container .wrapper{
+    width: 860px;
+    height: 460px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+    background: #000;
+    box-shadow: 10px 10px 25px rgba(0,0,0,0.25), -10px -10px -25px rgba(0,0,0,0.25),;
+    border-radius: 20px;
+    
+}
+
+.container .circle{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #ff3700, #171717);
+}
+.circle:nth-child(1){
+    left: 150px;
+    bottom: 20px;
+
+}
+.circle:nth-child(2){
+    right: 140px;
+    top: 20px;
+
+}
+
+.header{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    color: #fff;
+
+}
+.header .logo{
+    font-size:20px;
+    font-weight: 600;
+    margin-left: 60px;
+    text-transform: uppercase;
+    margin-right: 40px;
+}
+ */
