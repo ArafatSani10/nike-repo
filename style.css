@@ -138,7 +138,7 @@ html,body{
     height: 80%;
     padding: 10px;
     cursor: pointer;
-    rotate: -20deg;
+    /* rotate: -20deg; */
     transition: transfrom 0.3s ease-in-out;
 }
 .collection img:hover{
@@ -160,4 +160,42 @@ button{
 }
 button:hover{
     background:#e50101;
+}
+
+.section2{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 400px;
+
+}
+.section2 .outer-circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: rgba(255, 0,0, 0.257);
+}
+
+.section2 .outer-circle .inner-circle{
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: px;
+    background: linear-gradient(to bottom, red, #ffffff17);
+}
+
+.inner-circle img{
+    width: 290px;
+    height: 200px;
+    rotate: -25deg;
+    /* margin-left: -100px; */
+    transition: 0.5s all ease-in-out;
+    cursor: pointer;
+}
+.inner-circle img:hover{
+    transform: scale(1.12);
+    rotate: -34deg;
 }
