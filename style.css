@@ -12,8 +12,8 @@ html,body{
     place-items: center;
     background: #171717;
 }
-/* 
-container
+
+/* container */
 .container{
     position: relative;
     width: 1260px;
@@ -68,4 +68,28 @@ container
     text-transform: uppercase;
     margin-right: 40px;
 }
- */
+.header ul{
+    display: flex;
+    position: absolute;
+    right: 40px;
+
+}
+
+.header ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 7px 20px;
+    cursor: pointer;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.header ul .btn{
+    background-color: #d400ff;
+    border-radius: 30px;
+    
+}
